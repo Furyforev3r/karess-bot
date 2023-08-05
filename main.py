@@ -20,7 +20,7 @@ client = tweepy.Client(bearer_token=os.environ.get("bearer_token"),
 while True:
     try:
         song = choice(songs)
-        Lyrics = choice(songs["lyrics"])
+        Lyrics = choice(song["lyrics"])
 
         if len(Lyrics) > 0:
             tweet = client.create_tweet(text=f'- "{Lyrics}"\n\n{songs["track"]["name"]} - {songs["track"]["artist"]}!')
