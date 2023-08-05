@@ -23,7 +23,7 @@ while True:
         Lyrics = choice(song["lyrics"])
 
         if len(Lyrics) > 0:
-            tweet = client.create_tweet(text=f'- "{Lyrics}"\n\n{songs["track"]["name"]} - {songs["track"]["artist"]}!')
+            tweet = client.create_tweet(text=f'- "{Lyrics}"\n\n{song["track"]["name"]} - {song["track"]["artist"]}!')
             print(tweet)
             sleep(7200)
     except Exception as e:
