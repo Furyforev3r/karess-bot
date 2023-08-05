@@ -3,7 +3,7 @@ import random
 from random import choice
 import time
 from time import sleep
-from lyrics-scrapping.lyrics import songs
+from lyrics_scrapping.lyrics import songs
 import os
 from dotenv import load_dotenv, find_dotenv
 
