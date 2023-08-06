@@ -1,4 +1,4 @@
-lyrics = [
+songs = [
     {
         "track": {
             "name": "So Beautiful",
@@ -4137,7 +4137,7 @@ lyrics = [
             "name": "Fly Me To The Moon (In Other Words)",
             "artist": "Frank Sinatra"
         },
-        "lyrics": 
+        "lyrics": [
             "1 ContributorFly Me to the Moon (In Other Words) LyricsFly me to the moon",
             "Let me sing among those stars",
             "Let me see what spring is like",
