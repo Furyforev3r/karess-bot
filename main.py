@@ -1,7 +1,5 @@
 import tweepy
-import random
 from random import choice
-import time
 from time import sleep
 from lyrics_scrapping.lyrics import songs
 import os
